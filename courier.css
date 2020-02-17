@@ -1,0 +1,44 @@
+body {
+  background-color: black;
+  font-family: courier ;
+}
+
+
+ul{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+li{
+  display:inline;
+  float:right;
+  text-align: center;
+  padding: 10px 16px;
+
+  border-right: 1px solid #bbb;
+}
+li:last-child{
+  border-left: 1px solid #bbb;
+}
+li a{
+  display:block;
+  color:white;
+  text-decoration:none;
+}
+.active{
+  background-color:#59401e;
+}
+
+
+
+ #text {
+   background-color: #59401e;
+   border: 4px solid  #551111;
+   border-top-left-radius: 10px;
+   border-top-right-radius:50px;
+   border-bottom-left-radius: 50px;
+   border-bottom-right-radius: 10px;
+   text-align: center;
+ }
