@@ -15,6 +15,6 @@
   startGame();
 
 function startGame(){
-  console.log('You wake up in a daze');
+  console.log('You wake in a daze');
   console.log('testing');
 };
