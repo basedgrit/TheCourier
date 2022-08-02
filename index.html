@@ -8,17 +8,22 @@
     <div id="nav">
       <ul>
         <p id="title">The Courier</p>
-        <li><a href="test.html">Pipboy test</a></li>
         <li><a href="about.html">About</a></li>
-        <li class="active"><a href="index.html">Home</a></li>
+        <li class="active"><a href="index.html">Play</a></li>
       </ul>
     </div>
     <!-- Testing what it would look like to display text -->
     <div id="screen">
+      <div id="decisionForm">
+        <form >
+         
+          <input type="text" id="decision" name="decision" onblur="getVal()">
+          
+        </form>
+      </div>
+     <!--<input type="button" onclick="startGame()" value="Start Game" id="startGame"> -->
     </div>
-    <form>
-      <input type="text">
-    </form>
+   
     <script src="courier.js"></script>
   </body>
 </html>
