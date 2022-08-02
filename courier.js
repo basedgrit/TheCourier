@@ -3,7 +3,7 @@
     console = {};
   }
   var old = console.log;
-  var logger = document.querySelector("#text");
+  var logger = document.querySelector("#screen");
   console.log = function (message) {
     if (typeof message == 'object'){
       logger.innerHTML += (JSON && JSON.stringify ? JSON.stringify(message): String(message)) + '<br />';
@@ -15,6 +15,9 @@
   startGame();
 
 function startGame(){
-  console.log('You wake in a daze');
+  console.log('You wake up in a daze');
+  console.log('testing'); 
+  console.log('testing');
+  console.log('testing');
   console.log('testing');
 };
