@@ -19,5 +19,5 @@ function startGame(){
   console.log('testing'); 
   console.log('testing');
   console.log('testing');
-  console.log('testing');
+  console.log('testi22ng');
 };
